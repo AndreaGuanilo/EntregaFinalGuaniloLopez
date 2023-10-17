@@ -1,0 +1,225 @@
+main {
+    .section13 {
+        .c1 {
+            background-color: #fef68076;
+            border: solid black 3px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            @include grid (repeat(2, 1fr), 100px auto, "t1 t1" "boc boa", 10px, center, center);
+            ;
+            .t1 {
+                grid-area: t1;
+            }
+            .boc {
+                grid-area: boc;
+                width: 300px;
+                &:hover {
+                    @include card-effect (scale(1.05),transform 0.9s ease-in-out);
+                }
+            }
+            .boa {
+                grid-area: boa;
+                width: 300px;
+                &:hover {
+                    @include card-effect (scale(1.05),transform 0.9s ease-in-out);
+                }
+            }
+        }
+        .c2 {
+            background-color: #f9df4a84;
+            border: solid black 3px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            @include grid (repeat(3, 1fr), 100px auto,"t2 t2 t2" "boath boath bh" "sod boo bh", 10px, center, center);
+            .t2 {
+                grid-area: t2;
+            }
+            .boath {
+                grid-area: boath;
+                width: 300px;
+                &:hover {
+                    @include card-effect (scale(1.05),transform 0.9s ease-in-out);
+                }
+            }
+            .bh {
+                grid-area: bh;
+                width: 250px;
+                &:hover {
+                    @include card-effect (scale(1.05),transform 0.9s ease-in-out);
+                }
+            }
+            .sod {
+                height: 200px;
+                grid-area: sod;
+                &:hover {
+                    @include card-effect (scale(1.05),transform 0.9s ease-in-out);
+                }
+            }
+            .boo {
+                height: 200px;
+                grid-area: boo;
+                &:hover {
+                    @include card-effect (scale(1.05),transform 0.9s ease-in-out);
+                }
+            }
+        }
+        .c3 {
+            background-color: #f8a30f80;
+            border: solid black 3px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            @include grid (repeat(2, 1fr), 200px auto,"t3 t3" "goz boch" "goz ss", 10px, center, center);
+            .t3 {
+                grid-area: t3;
+            }
+            .boch {
+                grid-area: boch;
+                width: 300px;
+                &:hover {
+                    @include card-effect (scale(1.05),transform 0.9s ease-in-out);
+                }
+            }
+            .ss {
+                grid-area: ss;
+                width: 250px;
+                &:hover {
+                    @include card-effect (scale(1.05),transform 0.9s ease-in-out);
+                }
+            }
+            .goz {
+                grid-area: goz;
+                width: 300px;
+                &:hover {
+                    @include card-effect (scale(1.05),transform 0.9s ease-in-out);
+                }
+            }
+        }
+        .c4 {
+            @include grid (repeat(2, 1fr), 200px auto,"t4 t4" "boathe aos", 10px, center, center);
+            background-color: #2c000477;
+            border: solid black 3px;
+            border-radius: 15px;
+            margin-bottom: 20px;            
+            .t4 {
+                grid-area: t4;
+            }
+            .boathe {
+                grid-area: boathe;
+                width: 350px;
+                &:hover {
+                    @include card-effect (scale(1.05),transform 0.9s ease-in-out);
+                }
+            }
+            .aos {
+                grid-area: aos;
+                width: 450px;
+                &:hover {
+                    @include card-effect (scale(1.05),transform 0.9s ease-in-out);
+                }
+            }
+        }
+        .c5 {
+            background-color: #6400006a;
+            border: solid black 3px;
+            border-radius: 15px;
+            margin-bottom: 20px;    
+            @include grid (repeat(2, 1fr), 100px auto auto,"t5 t5" "coh nc" "coh boe", 10px, center, center);
+            .t5 {
+                grid-area: t5;
+            }
+            .boe {
+                grid-area: boe;
+                width: 300px;
+                &:hover {
+                    @include card-effect (scale(1.05),transform 0.9s ease-in-out);
+                }
+            }
+            .coh {
+                grid-area: coh;
+                width: 150px;
+                &:hover {
+                    @include card-effect (scale(1.05),transform 0.9s ease-in-out);
+                }
+            }
+            .nc {
+                grid-area: nc;
+                width: 250px;
+                &:hover {
+                    @include card-effect (scale(1.05),transform 0.9s ease-in-out);
+                }
+            }
+        }
+        .c6 {
+            background-color: #b73d097c;
+            border: solid black 3px;
+            border-radius: 15px;
+            margin-bottom: 20px;    
+            @include grid (repeat(2, 1fr), 100px auto 100px auto auto,"t6 t6" "bc bc" "t7 t7" "la gs" "la tb", 10px, center, center);
+            .t6 {
+                grid-area: t6;
+            }
+            .bc {
+                grid-area: bc;
+                width: 300px;
+                &:hover {
+                    @include card-effect (scale(1.05),transform 0.9s ease-in-out);
+                }
+            }
+            .t7 {
+                grid-area: t7;
+            }
+            .la {
+                width: 300px;
+                grid-area: la;
+                &:hover {
+                    @include card-effect (scale(1.05),transform 0.9s ease-in-out);
+                }
+            }
+            .gs {
+                width: 150px;
+                grid-area: gs;
+                &:hover {
+                    @include card-effect (scale(1.05),transform 0.9s ease-in-out);
+                }
+            }
+            .tb {
+                width: 150px;
+                grid-area: tb;
+                &:hover {
+                    @include card-effect (scale(1.05),transform 0.9s ease-in-out);
+                }
+            }
+        }
+        .c8 {
+            background-color: #f2f3f483;
+            border: solid black 3px;
+            border-radius: 15px;
+            margin-bottom: 20px;   
+            @include grid (repeat(2, 1fr), 100px auto auto,"t8 t8" "ds lax" "ds gsh", 10px, center, center);
+            .t8 {
+                grid-area: t8;
+            }
+            .lax {
+                width: 200px;
+                grid-area: lax;
+                &:hover {
+                    @include card-effect (scale(1.05),transform 0.9s ease-in-out);
+                }
+            }
+            .gsh {
+                width: 200px;
+                grid-area: gsh;
+                &:hover {
+                    @include card-effect (scale(1.05),transform 0.9s ease-in-out);
+                }
+            }
+            .ds {
+                grid-area: ds;
+                width: 100px;
+                &:hover {
+                    @include card-effect (scale(1.05),transform 0.9s ease-in-out);
+                }
+            }
+        }
+    }
+}

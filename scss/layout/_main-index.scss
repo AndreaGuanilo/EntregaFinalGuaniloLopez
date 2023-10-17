@@ -1,0 +1,35 @@
+main {
+    .section1 {
+        background-image: url(https://rare-gallery.com/thumbs/521915-god-of-war-4-wallpaper.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .mainLogo {
+            @include game-logo;
+        }
+        .section1__title {
+            @include main-title;
+        }
+        .section1__info {
+            @include flex (row, space-around, center, none, wrap);
+            margin-left: 400px;
+            padding: 0px 20px 20px 350px;
+            .ps_logo {
+                @include company-logo;
+            }
+            .sie_logo {
+                @include company-logo;
+            }
+            .sme_logo {
+                @include company-logo;
+            }
+            .section1__text {
+                width: 1000px;
+                .section1__text-p {
+                    @include text;                    
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+main {
+    .section2 {
+        background-color: $bg-dark;
+        padding-bottom: 1px;
+        .section2__logo {
+            display: block;
+            margin: auto;
+            height: 197px;
+            width: 100%;
+            background-image: url(https://www.drawingtabletworld.com/wp-content/uploads/2020/09/God-of-War-Tablet.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .section2__title {
+            @include main-title;
+            color: #F8A20F;
+            margin: 10px 0px;
+        }
+        .section2__video {
+            margin: auto;
+            text-align: center;
+            padding: 10px auto 20px;
+            width: 1000px;
+            .iframe {
+                margin: 10px auto;
+                width: 800px;
+                height: 400px;
+            }
+            .section2__text-p {
+                @include text;
+                font-size: 20px;
+                color: #F2F3F4;
+                padding: 20px;
+            }
+        }
+    }
+}
