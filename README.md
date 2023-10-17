@@ -27,3 +27,5 @@ Aquí se encuentran los links que corresponden al proyecto:
 * [Enlace al proyecto en Figma](https://www.figma.com/file/PDTrmNOMUTxJvGbaSNEx6J/PROYECTO-CODERHOUSE?type=design&mode=design&t=rnHJaDic2bVvQ9Uz-1) 
 * [Enlace al proyecto](https://andreaguanilo.github.io/EntregaFinalGuaniloLopez/)
 * [Enlace al repositorio en GITHUB](https://github.com/AndreaGuanilo/EntregaFinalGuaniloLopez.git)
+* [Presupuesto](https://www.canva.com/design/DAFxjbpaJEs/gUpHEJ-jXZE-lR4dTJ0ZaA/view?utm_content=DAFxjbpaJEs&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+* [Cronograma del proyecto](https://www.canva.com/design/DAFxjVuwrzo/PnWA2kQFnqxx88jr9TPGLA/view?utm_content=DAFxjVuwrzo&utm_campaign=designshare&utm_medium=link&utm_source=editor)
