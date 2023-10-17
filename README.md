@@ -20,5 +20,9 @@ Se usaron las estrategias para armar la página:
 * **SCSS** para organizar el código de la página.
 * **Otras estrategias de CSS** para estilizar y armonizar el contenido como la aplicación de border-radius en algunas secciones, css grid y flexbox para diseño responsivo, se usaron valores relativos y queries para optimizar la vista.
 
+## :bookmark_tabs: Links del proyecto
+
+Aquí se encuentran los links que corresponden al proyecto:
+
 * [Enlace al proyecto en Figma](https://www.figma.com/file/PDTrmNOMUTxJvGbaSNEx6J/PROYECTO-CODERHOUSE?type=design&mode=design&t=rnHJaDic2bVvQ9Uz-1) 
 * [Enlace al proyecto](https://www.figma.com/file/PDTrmNOMUTxJvGbaSNEx6J/PROYECTO-CODERHOUSE?type=design&mode=design&t=rnHJaDic2bVvQ9Uz-1) 
