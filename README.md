@@ -25,4 +25,5 @@ Se usaron las estrategias para armar la página:
 Aquí se encuentran los links que corresponden al proyecto:
 
 * [Enlace al proyecto en Figma](https://www.figma.com/file/PDTrmNOMUTxJvGbaSNEx6J/PROYECTO-CODERHOUSE?type=design&mode=design&t=rnHJaDic2bVvQ9Uz-1) 
-* [Enlace al proyecto](https://www.figma.com/file/PDTrmNOMUTxJvGbaSNEx6J/PROYECTO-CODERHOUSE?type=design&mode=design&t=rnHJaDic2bVvQ9Uz-1) 
+* [Enlace al proyecto](https://andreaguanilo.github.io/EntregaFinalGuaniloLopez/)
+* [Enlace al repositorio en GITHUB](https://github.com/AndreaGuanilo/EntregaFinalGuaniloLopez.git)
